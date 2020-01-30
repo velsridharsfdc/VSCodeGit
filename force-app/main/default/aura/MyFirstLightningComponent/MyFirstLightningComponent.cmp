@@ -1,0 +1,7 @@
+<aura:component  implements="force:appHostable,lightning:actionOverride,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:lightningQuickAction" access="global">
+<div>
+</div>
+<lightning:inputField fieldName="FirstName" />
+<lightning:inputAddress aura:id="myaddress" addressLabel="Address" streetLabel="Street" cityLabel="City" countryLabel="Country" provinceLabel="State"   postalCodeLabel="PostalCode" street="1 Market St." city="San Francisco" country="US" province="CA" postalCode="94105" required="true"/>
+<lightning:outputField fieldName="Name" />
+</aura:component>
